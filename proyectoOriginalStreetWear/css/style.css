@@ -1,0 +1,119 @@
+* {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+footer {
+    margin-top: auto;
+}
+
+.card {
+    display: inline-block;
+    width: 33%;
+    /* ajusta este valor para cambiar el ancho de cada tarjeta */
+    vertical-align: top;
+    border: none;
+}
+
+#shortnegro {
+    margin-left: 8px;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+.card-price {
+    text-align: center;
+}
+
+#gg {
+    color: white;
+    background-color: rgb(43, 48, 53);
+}
+
+#imgP {
+    width: 100%;
+    
+
+}
+
+#tituloshort, #titulopantalones {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#carrusel{
+    width: 100%;
+    height: 110vh;
+    margin-bottom: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+}
+
+
+#fotomedidasshort {
+    margin-top: 50%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+    
+}
+
+.shortImagen {
+    margin-right: 8%;
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 27%;
+
+    
+}
+
+.contenedor section {
+    flex: 1;
+}
+  
+.imgshort3 {
+    width: 33%;
+    
+}
+
+#carouselExampleIndicators {
+    width: 27%;
+    height: 100%;
+    margin-right: 8%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.carousel-item .d-block {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.card-img-top1{
+    width: 50%;
+    height: 30%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
