@@ -20,10 +20,6 @@ footer {
     border: none;
 }
 
-#shortnegro {
-    margin-left: 8px;
-}
-
 .card-title {
     text-align: center;
 
@@ -31,6 +27,47 @@ footer {
 
 .card-price {
     text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+
+.shortImagen {
+    margin-right: 8%;
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 27%;
+
+    
+}
+
+.contenedor section {
+    flex: 1;
+}
+  
+.imgshort3 {
+    width: 33%;
+    
+}
+
+.carousel-item .d-block {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.card-img-top1{
+    width: 50%;
+    height: 30%;
+    margin-left: 20%;
+}
+
+#shortnegro {
+    margin-left: 8px;
 }
 
 #footerprincipal {
@@ -64,31 +101,6 @@ footer {
     margin-top: 50%;
 }
 
-.contenedor {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10%;
-    
-}
-
-.shortImagen {
-    margin-right: 8%;
-    margin-left: 20%;
-    margin-top: 15%;
-    width: 27%;
-
-    
-}
-
-.contenedor section {
-    flex: 1;
-}
-  
-.imgshort3 {
-    width: 33%;
-    
-}
-
 #carouselExampleIndicators {
     width: 27%;
     height: 100%;
@@ -97,24 +109,26 @@ footer {
     margin-top: 15%;
 }
 
-.carousel-item .d-block {
-    width: 75%;
-    height: auto;
-    margin: auto;
-}
-
-.card-img-top1{
-    width: 50%;
-    height: 30%;
-    margin-left: 20%;
-}
-
 #card-deck-poleronesh, #card-deck-polerash, #fotoencontruccion, #card-deck-shorts  {
     margin-top: 2%;
     margin-left: 5%;
     margin-bottom: 2%;
     margin-right: 5%;
 }
+
+#login {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+#titulologin {
+    text-align: center;
+}
+
 
 
 
