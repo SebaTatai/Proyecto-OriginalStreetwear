@@ -16,7 +16,6 @@ footer {
 .card {
     display: inline-block;
     width: 33%;
-    /* ajusta este valor para cambiar el ancho de cada tarjeta */
     vertical-align: top;
     border: none;
 }
@@ -34,7 +33,7 @@ footer {
     text-align: center;
 }
 
-#gg {
+#footerprincipal {
     color: white;
     background-color: rgb(43, 48, 53);
 }
