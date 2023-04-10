@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
 footer {
     margin-top: auto;
@@ -33,7 +33,7 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 10%;
-    
+
 }
 
 .shortImagen {
@@ -42,16 +42,16 @@ footer {
     margin-top: 15%;
     width: 27%;
 
-    
+
 }
 
 .contenedor section {
     flex: 1;
 }
-  
+
 .imgshort3 {
     width: 33%;
-    
+
 }
 
 .carousel-item .d-block {
@@ -60,7 +60,7 @@ footer {
     margin: auto;
 }
 
-.card-img-top1{
+.card-img-top1 {
     width: 50%;
     height: 30%;
     margin-left: 20%;
@@ -73,17 +73,22 @@ footer {
 
 #imgP {
     width: 100%;
-    
+
 
 }
 
-#tituloshortH, #titulopantalonesM, #titulopolerasH {
+#tituloshortH,
+#titulopantalonesM,
+#titulopolerasH,
+#tituloseccionshortH,
+#tituloseccionpoleronesH,
+#tituloseccionpolerasH {
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
-#carrusel{
+#carrusel {
     width: 100%;
     height: 110vh;
     margin-bottom: 9%;
@@ -105,7 +110,11 @@ footer {
     margin-top: 15%;
 }
 
-#card-deck-pantalonesM, #card-deck-polerasH, #fotoencontruccion, #card-deck-shortsH  {
+#card-deck-polerash,
+#fotoencontruccion,
+#card-deck-shortsh,
+#card-deck-poleronesh,
+#card-deck-pantalonesM {
     margin-top: 2%;
     margin-left: 5%;
     margin-bottom: 2%;
@@ -118,20 +127,14 @@ footer {
     margin-top: 2%;
     margin-bottom: 5%;
     text-align: center;
-    
+
 }
 
 #titulologin {
     text-align: center;
 }
 
+#tituloseccionshortH {
+    text-align: center;
 
-
-
-
-
-
-
-
-
-
+}
