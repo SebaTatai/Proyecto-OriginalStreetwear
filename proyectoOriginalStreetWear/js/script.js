@@ -43,43 +43,39 @@ function validar(){
     }
     document.getElementById("valida_password").innerHTML = text;
   }
-  
-  
-  
-  
-  
-  
-  //Validacioens en JQuery
-  
-  $(document).ready(function() {
-    // Cuando se haga clic en el botón "Ingresar"
-    $("button[type='button']").click(function() {
-      // Obtener los valores de los campos de correo electrónico y contraseña
-      var email = $("#form2Example1").val();
-      var password = $("#form2Example2").val();
-  
-      // Validar que ambos campos no estén vacíos
-      if (email === "" || password === "") {
-        alert("Por favor, complete todos los campos.");
-        return false;
+
+$(document).ready(function(){
+  $(".errorcorreoelectronico").hide();
+  $("#ingresar").click(function(){
+      var correoelectronico="";
+      correoelectronico = $("#correoelectronico").val();
+      if (correoelectronico.length == 0){
+          $(".errorcorreo").show();
+      }else{
+          $(".errorcorreo").hide();
       }
-  
-      // Validar que el correo electrónico tenga formato válido
-      var emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-      if (!emailRegex.test(email)) {
-        alert("Por favor, ingrese un correo electrónico válido.");
-        return false;
-      }
-  
-      // Validar que la contraseña tenga al menos 8 caracteres
-      if (password.length < 8) {
-        alert("La contraseña debe tener al menos 8 caracteres.");
-        return false;
-      }
-  
-      // Si todas las validaciones son exitosas, se envía el formulario
-      alert("¡Inicio de sesión exitoso!");
-      return true;
-    });
   });
+});
+
+$(document).ready(function(){
+  $(".errorcontraseña").hide();
+  $("#ingresar").click(function(){
+      var contraseña="";
+      contraseña = $("#contraseña").val();
+      if (contraseña.length == 0){
+          $(".errorcontraseña").show();
+      }else{
+          $(".errorcontraseña").hide();
+      }
+  });
+});
+
+
+  
+  
+  
+  
+  
+  
+
   

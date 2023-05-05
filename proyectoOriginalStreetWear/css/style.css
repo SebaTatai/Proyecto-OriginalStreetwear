@@ -79,6 +79,10 @@ footer {
     margin-left: 20%;
 }
 
+.errorcorreo, .errorcontraseña {
+    color: #ff0000;
+}
+
 #footerprincipal {
     color: white;
     background-color: rgb(43, 48, 53);
@@ -151,3 +155,4 @@ footer {
     text-align: center;
 
 }
+
