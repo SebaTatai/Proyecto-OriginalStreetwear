@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
 footer {
     margin-top: auto;
@@ -16,13 +16,8 @@ footer {
 .card {
     display: inline-block;
     width: 33%;
-    /* ajusta este valor para cambiar el ancho de cada tarjeta */
     vertical-align: top;
     border: none;
-}
-
-#shortnegro {
-    margin-left: 8px;
 }
 
 .card-title {
@@ -34,24 +29,77 @@ footer {
     text-align: center;
 }
 
-#gg {
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+
+}
+
+.shortImagen {
+    margin-right: 8%;
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 27%;
+
+
+}
+
+.containerR {
+    background-image: url("img/FondoRegistro.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.contenedor section {
+    flex: 1;
+}
+
+.imgshort3 {
+    width: 33%;
+
+}
+
+.carousel-item .d-block {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.card-img-top1 {
+    width: 50%;
+    height: 30%;
+    margin-left: 20%;
+}
+
+#footerprincipal {
     color: white;
     background-color: rgb(43, 48, 53);
 }
 
 #imgP {
     width: 100%;
-    
+
 
 }
 
-#tituloshort, #titulopantalones {
+#tituloshortH,
+#titulopantalonesM,
+#titulopolerasH,
+#tituloseccionshortH,
+#tituloseccionpoleronesH,
+#tituloseccionpolerasH {
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
-#carrusel{
+#carrusel {
     width: 100%;
     height: 110vh;
     margin-bottom: 9%;
@@ -65,31 +113,6 @@ footer {
     margin-top: 50%;
 }
 
-.contenedor {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20%;
-    
-}
-
-.shortImagen {
-    margin-right: 8%;
-    margin-left: 20%;
-    margin-top: 15%;
-    width: 27%;
-
-    
-}
-
-.contenedor section {
-    flex: 1;
-}
-  
-.imgshort3 {
-    width: 33%;
-    
-}
-
 #carouselExampleIndicators {
     width: 27%;
     height: 100%;
@@ -98,22 +121,31 @@ footer {
     margin-top: 15%;
 }
 
-.carousel-item .d-block {
-    width: 75%;
-    height: auto;
-    margin: auto;
+#card-deck-polerash,
+#fotoencontruccion,
+#card-deck-shortsh,
+#card-deck-poleronesh,
+#card-deck-pantalonesM {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-right: 5%;
 }
 
-.card-img-top1{
-    width: 50%;
-    height: 30%;
-    margin-left: 20%;
+#login {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+
 }
 
+#titulologin {
+    text-align: center;
+}
 
+#tituloseccionshortH {
+    text-align: center;
 
-
-
-
-
-
+}
