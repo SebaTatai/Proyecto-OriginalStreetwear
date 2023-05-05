@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi cuenta</title>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Original-StreetWear</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -13,10 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <!------------ NavBar ---------->
     <header id="header1">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -88,71 +92,64 @@
                             <a class="nav-link active" aria-current="page" href="sec.html">Accesorios</a>
                         </li>
                     </ul>
-                    <a href="login.html"><button class="btn"><i class="bi bi-person-circle"></i> Mi Cuenta</button></a>
-                    <a href="sec.html"><button class="btn"><i class="bi bi-cart4"></i> Carrito</button></a>
+                    <a href="login.html" class="btn"><i class="bi bi-person-circle"></i> Mi Cuenta</a>
+                    <a href="sec.html" class="btn"><i class="bi bi-cart4"></i> Carrito</a>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
+    <!-------- Zona registro ---------->
     
-    <!------------ Login ---------->
-    <br>
-    <h1 id="titulologin">Ingresar Cuenta</h1>
-    <form id="login">
-        <!-- Email -->
-        <div class="form-outline mb-4">
-            <input type="email" id="form2Example1" class="form-control" />
-            <label class="form-label" for="form2Example1">Correo Electronico</label>
-        </div>
-
-        <!-- Contraseña -->
-        <div class="form-outline mb-4">
-            <input type="password" id="form2Example2" class="form-control" />
-            <label class="form-label" for="form2Example2">Contraseña</label>
-        </div>
-
-        <!-- 2 Columnas -->
-        <div class="row mb-4">
-            <div class="col d-flex justify-content-center">
-                <!-- Checkbox -->
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                    <label class="form-check-label" for="form2Example31"> Recuerdame </label>
+    <div class="containerR">
+        <div class="row">
+            <form>
+                <h1>Registro de cuenta</h1>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                    <p id="valida_nombre"></p>
                 </div>
-            </div>
-
-            <div class="col">
-                <!-- Link -->
-                <a href="#!">Olvidaste tu contraseña?</a>
-            </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido">
+                    <p id="valida_apellido"></p>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" name="correo">
+                    <p id="valida_correo"></p>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                    <p id="valida_password"></p>
+                </div>
+                <button type="button" onclick="validar()">Registrarse</button>
+            </form>
         </div>
+    </div>
+    <br>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    
 
-        <!-- Boton Ingresar -->
-        <button type="button" class="btn btn-primary btn-block mb-4">Ingresar</button>
 
-        <!-- Opciones Ingresar -->
-        <div class="text-center">
-            <p>No eres miembro? <a href="registro2.html">Registrarse</a></p>
-            <p>o ingresar con:</p>
-            <button type="button" class="btn btn-link btn-floating mx-1">
-                <i class="bi bi-facebook"></i>
-            </button>
+<!--------------- Fin zona registro --------------------->
 
-            <button type="button" class="btn btn-link btn-floating mx-1">
-                <i class="bi bi-google"></i>
-            </button>
 
-            <button type="button" class="btn btn-link btn-floating mx-1">
-                <i class="bi bi-twitter"></i>
-            </button>
 
-            <button type="button" class="btn btn-link btn-floating mx-1">
-                <i class="bi bi-github"></i>
-            </button>
-        </div>
-    </form>
 
-    <!----- Footer ------->
+    <!--Footer-->
+
     <footer id="footerprincipal">
         <!-- Seccion: Redes Sociales -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -272,6 +269,8 @@
         </div>
         <!-- Copyright -->
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
