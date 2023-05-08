@@ -70,6 +70,18 @@ $(document).ready(function(){
   });
 });
 
+// Realiza una solicitud a la API de Tawk.to
+fetch('https://api.tawk.to/v1/analytics/visitors')
+  .then(response => response.json()) // Analiza la respuesta JSON
+  .then(data => {
+    // Accede a los datos que necesitas y utilízalos en tu aplicación
+    console.log(data); // Por ejemplo, muestra los datos en la consola
+  })
+  .catch(error => {
+    // Maneja cualquier error de la solicitud
+    console.error('Error:', error);
+  });
+
 
   
   
